@@ -1,5 +1,5 @@
 import csv
-import csv
+
 f = open('macities.csv')
 csv_f = csv.reader(f)
 
