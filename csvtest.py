@@ -1,9 +1,5 @@
-import csv
+import pandas
+data = pandas.read_csv('macities.csv')
 
-f = open('macities.csv')
-csv_f = csv.reader(f)
-
-for row in csv_f:
-  print(row)
-
-f.close()
+#using data.city[i] to read the i city
+print(data.city)
