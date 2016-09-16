@@ -1,0 +1,475 @@
+zip,city
+1001,Agawam
+1002,Cushman
+1005,Barre
+1007,Belchertown
+1008,Blandford
+1010,Brimfield
+1011,Chester
+1012,Chesterfield
+1013,Chicopee
+1020,Chicopee
+1022,Westover Afb
+1026,Cummington
+1027,Mount Tom
+1028,East Longmeadow
+1030,Feeding Hills
+1031,Gilbertville
+1032,Goshen
+1033,Granby
+1034,Tolland
+1035,Hadley
+1036,Hampden
+1038,Hatfield
+1039,Haydenville
+1040,Holyoke
+1050,Huntington
+1053,Leeds
+1054,Leverett
+1056,Ludlow
+1057,Monson
+1060,Florence
+1068,Oakham
+1069,Palmer
+1070,Plainfield
+1071,Russell
+1072,Shutesbury
+1073,Southampton
+1075,South Hadley
+1077,Southwick
+1080,Three Rivers
+1081,Wales
+1082,Ware
+1085,Montgomery
+1089,West Springfield
+1092,West Warren
+1095,Wilbraham
+1096,Williamsburg
+1098,Worthington
+1103,Springfield
+1104,Springfield
+1105,Springfield
+1106,Longmeadow
+1107,Springfield
+1108,Springfield
+1109,Springfield
+1118,Springfield
+1119,Springfield
+1128,Springfield
+1129,Springfield
+1151,Indian Orchard
+1201,Pittsfield
+1220,Adams
+1222,Ashley Falls
+1223,Becket
+1225,Cheshire
+1226,Dalton
+1230,Great Barrington
+1235,Peru
+1236,Housatonic
+1237,Hancock
+1238,Lee
+1240,Lenox
+1243,Middlefield
+1245,West Otis
+1247,Clarksburg
+1253,Otis
+1254,Richmond
+1255,Sandisfield
+1256,Savoy
+1257,Sheffield
+1258,South Egremont
+1259,Southfield
+1262,Stockbridge
+1266,West Stockbridge
+1267,Williamstown
+1270,Windsor
+1301,Leyden
+1330,Ashfield
+1331,New Salem
+1337,Leyden
+1338,Buckland
+1339,Hawley
+1340,Colrain
+1341,Conway
+1342,Deerfield
+1344,Erving
+1346,Heath
+1349,Millers Falls
+1350,Monroe
+1351,Montague
+1355,New Salem
+1360,Northfield
+1364,New Salem
+1366,Petersham
+1367,Rowe
+1370,Shelburne Falls
+1373,South Deerfield
+1375,Sunderland
+1376,Turners Falls
+1379,Wendell
+1420,Fitchburg
+1430,Ashburnham
+1431,Ashby
+1432,Ayer
+1433,Ft Devens
+1436,Baldwinville
+1440,Gardner
+1450,Groton
+1451,Harvard
+1452,Hubbardston
+1453,Leominster
+1460,Littleton
+1462,Lunenburg
+1463,Pepperell
+1464,Shirley Center
+1468,Templeton
+1469,Townsend
+1473,Westminster
+1474,W Townsend
+1475,Winchendon
+1501,Auburn
+1503,Berlin
+1504,Blackstone
+1505,Boylston
+1506,Brookfield
+1507,Charlton
+1510,Clinton
+1515,East Brookfield
+1516,East Douglas
+1518,Fiskdale
+1519,Grafton
+1520,Holden
+1521,Holland
+1522,Jefferson
+1523,Lancaster
+1524,Leicester
+1527,Millbury
+1529,Millville
+1531,New Braintree
+1532,Northborough
+1534,Northbridge
+1535,North Brookfield
+1536,North Grafton
+1537,North Oxford
+1540,Oxford
+1541,Princeton
+1542,Rochdale
+1543,Rutland
+1545,Shrewsbury
+1550,Southbridge
+1560,South Grafton
+1562,Spencer
+1564,Sterling
+1566,Sturbridge
+1568,West Upton
+1569,Uxbridge
+1570,Dudley Hill
+1571,Dudley
+1581,Westborough
+1583,West Boylston
+1585,West Brookfield
+1588,Whitinsville
+1590,Wilkinsonville
+1602,Worcester
+1603,Worcester
+1604,Worcester
+1605,Worcester
+1606,Worcester
+1607,Worcester
+1608,Worcester
+1609,Worcester
+1610,Worcester
+1611,Cherry Valley
+1612,Paxton
+1701,Framingham
+1718,Village Of Nagog
+1719,Boxboro
+1720,Acton
+1721,Ashland
+1730,Bedford
+1740,Bolton
+1741,Carlisle
+1742,Concord
+1745,Southborough
+1746,Holliston
+1747,Hopedale
+1748,Hopkinton
+1749,Hudson
+1752,Marlborough
+1754,Maynard
+1756,Mendon
+1757,Milford
+1760,Natick
+1770,Sherborn
+1772,Southborough
+1773,Lincoln
+1775,Stow
+1776,Sudbury
+1778,Wayland
+1801,Woburn
+1803,Burlington
+1810,Andover
+1821,Billerica
+1824,South Chelmsford
+1826,Dracut
+1827,Dunstable
+1830,Haverhill
+1832,Haverhill
+1833,Georgetown
+1834,Groveland
+1835,Bradford
+1840,Lawrence
+1841,Lawrence
+1843,Lawrence
+1844,Methuen
+1845,North Andover
+1850,Lowell
+1851,Lowell
+1852,Lowell
+1854,Lowell
+1860,Merrimac
+1862,North Billerica
+1863,North Chelmsford
+1864,North Reading
+1867,Reading
+1876,Tewksbury
+1879,Tyngsboro
+1880,Wakefield
+1886,Graniteville
+1887,Wilmington
+1890,Winchester
+1901,Lynn
+1902,Lynn
+1904,East Lynn
+1905,West Lynn
+1906,Saugus
+1907,Swampscott
+1908,Nahant
+1913,Amesbury
+1915,Beverly
+1921,Boxford
+1922,Byfield
+1923,Danvers
+1929,Essex
+1930,Gloucester
+1938,Ipswich
+1940,Lynnfield
+1944,Manchester
+1945,Marblehead
+1949,Middleton
+1950,Newburyport
+1951,Newbury
+1952,Salisbury
+1960,Peabody
+1966,Rockport
+1969,Rowley
+1970,Salem
+1982,South Hamilton
+1983,Topsfield
+1984,Wenham
+1985,West Newbury
+2019,Bellingham
+2021,Canton
+2025,Cohasset
+2026,Dedham
+2030,Dover
+2032,East Walpole
+2035,Foxboro
+2038,Franklin
+2043,Hingham
+2045,Hull
+2048,Mansfield
+2050,Marshfield
+2052,Medfield
+2053,Medway
+2054,Millis
+2056,Norfolk
+2061,Norwell
+2062,Norwood
+2066,Scituate
+2067,Sharon
+2071,South Walpole
+2072,Stoughton
+2081,Walpole
+2090,Westwood
+2093,Wrentham
+2108,Boston
+2109,Boston
+2110,Boston
+2111,Boston
+2113,Boston
+2114,Boston
+2115,Boston
+2116,Boston
+2118,Roxbury
+2119,Roxbury
+2120,Roxbury
+2121,Dorchester
+2122,Dorchester
+2124,Dorchester
+2125,Dorchester
+2126,Mattapan
+2127,South Boston
+2128,East Boston
+2129,Charlestown
+2130,Jamaica Plain
+2131,Roslindale
+2132,West Roxbury
+2134,Allston
+2135,Brighton
+2136,Hyde Park
+2138,Cambridge
+2139,Cambridge
+2140,North Cambridge
+2141,East Cambridge
+2142,Cambridge
+2143,Somerville
+2144,Somerville
+2145,Somerville
+2146,Brookline
+2148,Malden
+2149,Everett
+2150,Chelsea
+2151,Revere
+2152,Winthrop
+2154,North Waltham
+2155,Medford
+2158,Newtonville
+2159,Newton Center
+2160,Newtonville
+2161,Newton Highlands
+2162,Newtonville
+2163,Cambridge
+2164,Newton Upper Fal
+2165,Newtonville
+2166,Auburndale
+2167,Boston College
+2168,Waban
+2169,Quincy
+2170,Quincy
+2171,Quincy
+2172,East Watertown
+2173,Lexington
+2174,Arlington
+2176,Melrose
+2178,Belmont
+2180,Stoneham
+2181,Wellesley
+2184,Braintree
+2186,Milton
+2188,Weymouth
+2189,Weymouth
+2190,Weymouth
+2191,Weymouth
+2192,Needham
+2193,Weston
+2194,Needham
+2199,Boston
+2210,Boston
+2215,Boston
+2322,Avon
+2324,Bridgewater
+2330,Carver
+2332,Duxbury
+2333,East Bridgewater
+2338,Halifax
+2339,Hanover
+2341,Hanson
+2343,Holbrook
+2346,Middleboro
+2347,Lakeville
+2351,Abington
+2356,North Easton
+2359,Pembroke
+2360,Plymouth
+2364,Kingston
+2367,Plympton
+2368,Randolph
+2370,Rockland
+2375,South Easton
+2379,West Bridgewater
+2382,Whitman
+2401,Brockton
+2402,Brockton
+2532,Onset
+2535,Chilmark
+2536,Teaticket
+2537,East Sandwich
+2538,East Wareham
+2539,Edgartown
+2540,Falmouth
+2542,Otis A F B
+2543,Woods Hole
+2554,Nantucket
+2556,North Falmouth
+2559,Pocasset
+2563,Sandwich
+2568,Vineyard Haven
+2571,Wareham
+2575,West Tisbury
+2576,West Wareham
+2601,West Yarmouth
+2630,Barnstable
+2631,Brewster
+2632,Centerville
+2633,South Chatham
+2635,Cotuit
+2638,Dennis
+2639,Dennis Port
+2642,Eastham
+2644,Forestdale
+2645,Harwich
+2646,Harwich Port
+2648,Marstons Mills
+2649,Mashpee
+2650,North Chatham
+2652,North Truro
+2653,Orleans
+2655,Osterville
+2657,Provincetown
+2659,South Chatham
+2660,South Dennis
+2664,Bass River
+2666,Truro
+2667,Wellfleet
+2668,West Barnstable
+2670,West Dennis
+2671,West Harwich
+2673,West Yarmouth
+2675,Yarmouth Port
+2702,Assonet
+2703,Attleboro
+2713,Cuttyhunk
+2715,Dighton
+2717,East Freetown
+2718,East Taunton
+2719,Fairhaven
+2720,Fall River
+2721,Fall River
+2723,Fall River
+2724,Fall River
+2725,Somerset
+2726,Somerset
+2738,Marion
+2739,Mattapoisett
+2740,New Bedford
+2743,Acushnet
+2744,New Bedford
+2745,New Bedford
+2746,New Bedford
+2747,North Dartmouth
+2748,Padanaram Villag
+2760,North Attleboro
+2762,Plainville
+2763,North Attleboro
+2764,North Dighton
+2766,Norton
+2767,Raynham
+2769,Rehoboth
+2770,Rochester
+2771,Seekonk
+2777,Swansea
+2779,Berkley
+2780,Taunton
+2790,Westport
