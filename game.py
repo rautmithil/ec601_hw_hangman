@@ -4,12 +4,16 @@ Created on Tue Sep 20 10:57:21 2016
 
 @author: zhuoli, mithil
 """
-
+from distutils.core import setup
 import pandas
 import random
+import py2exe
+
+setup(console=['game.py'])
+#Read the list of cities
 data = pandas.read_csv('macities.csv')
 
-
+#The hangman graphic
 board = [
 '  +---+   \n  |   |   \n      |   \n      |   \n      |   \n      |   \n========= \n',
 '  +---+   \n  |   |   \n  0   |   \n      |   \n      |   \n      |   \n========= \n',
@@ -20,14 +24,17 @@ board = [
 '  +---+   \n  |   |   \n  0   |   \n /|\\  |   \n / \\  |   \n      |   \n========= \n'
 ]
 
+#Select which level of hangman to draw
 def drawh(i):
     print(board[i])
-    
+
+#Print the number of chances remaining    
 def count_ch(i):
     ch = 6 #Maximum chances are 6
     rem=ch-i
     print ('Chances remaining: ',rem)
 
+#Check whether the given letter is in the city spelling
 def check_spelling(city,lenth,let):
     
     letter_space = [0]
@@ -44,7 +51,7 @@ def check_spelling(city,lenth,let):
     letter_space[0] = num
     return letter_space
     
-
+#Print a selected random city in blank to start the game. Ex: Boston - B _ s _ _ _
 def print_puzzle(city,num_let):
     city_str = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
     if num_let <= 5:
@@ -81,7 +88,7 @@ def print_puzzle(city,num_let):
                 space_alarm = 1
                 
         
-        #randomly decide tow letters to be remianed
+        #randomly decide tow letters to be remained
         if space_alarm == 1:
             space_bit = city.index(space)
             bit_1 = random.randint(0,space_bit-1)
@@ -143,72 +150,79 @@ def print_puzzle(city,num_let):
                 print(city_str[k],' ', end ='')
                 
         return city_str
+print('Welcome to hangman')
         
-    
-#using data.city[i] to read the i city
-#print(data.city)
-
+replay='true';
+while(replay):   
 #pick up a city randomly
-sel_city = random.randint(1,473)
+    sel_city = random.randint(1,473)
 #print (sel_city)
-sel_city = 350
+    #sel_city = 350
 
-city = data.city[sel_city]
+#Select a random city from data
+    city = data.city[sel_city]
 #print(city)
 
 #count the amount of letters
-num_let = len(city)
+    num_let = len(city)
 #print (num_let)
-print('Welcome to hangman')
-drawh(0)
-print('This is the name of a city in MA')     
+    
+    drawh(0)
+    print('This is the name of a city in the state of Massachussets')     
 
-city_str = print_puzzle(city,num_let)       
-incorrect = 0
-used_letter = []
+    city_str = print_puzzle(city,num_let)       
+    incorrect = 0
+    used_letter = []
 
-print('\nPlease geuss a letter:')
+    print('\nPlease guess a letter:')
 
-while(True):
-            
 
-    letter = input()
-    sign = check_spelling(city,num_let,letter)
-    if sign[0] == 0:
-        incorrect = incorrect + 1
-        if incorrect < 6:
-            print ('This letter is not contained in the city name')
-            used_letter.append(letter)
-            drawh(incorrect)
-            count_ch(6-incorrect)
-            print ("Letter used: ",used_letter)
-            for k2 in range(0,num_let):
-                print (city_str[k2],' ', end ='')
-            print('Please geuss a letter:')
+    while(replay):       
+
+        letter = input()
+        sign = check_spelling(city,num_let,letter)
+        if sign[0] == 0:
+            incorrect = incorrect + 1
+            if incorrect < 6:
+                print ('This letter is not contained in the city name')
+                used_letter.append(letter)
+                drawh(incorrect)
+                count_ch(incorrect)
+                print ("Letter used: ",used_letter)
+                for k2 in range(0,num_let):
+                    print (city_str[k2],' ', end ='')
+                print('Please geuss a letter:')
+            else:
+                print ('This letter is not contained in the city name')
+                drawh(6)
+                print ('Game Over')
+                break
         else:
-            print ('This letter is not contained in the city name')
-            drawh(6)
-            print ('Game Over')
-            break
-    else:
-        for nn in range(0,sign[0]):
-            city_str[sign[nn+1]] = letter
-        print ('That is a correct letter')
-        for k3 in range(0,num_let):
-            print (city_str[k3],' ', end ='')
+            for nn in range(0,sign[0]):
+                city_str[sign[nn+1]] = letter
+            print ('That is a correct letter')
+            for k3 in range(0,num_let):
+                print (city_str[k3],' ', end ='')
 
 
-        flag = 1
+            flag = 1
         
-        for k2 in range(0,num_let):
-            if city_str[k2] == '_':
-                flag = 0;
+            for k2 in range(0,num_let):
+                if city_str[k2] == '_':
+                    flag = 0;
 
                 
-        if flag == 1:
-            print ('\nWell Done')
-            break
-        else:
-            print('\nPlease geuss a letter:')
-            
-            
+            if flag == 1:
+                print ('\nWell Done')
+                break
+            else:
+                print('\nPlease guess a letter:')
+    
+    print('Do you want to replay? Enter: Y/N ')
+    rep=input()
+    if(rep=='y' or rep=='Y'):
+        replay='true'
+    else:
+        replay='false'
+        break    
+print('Thank you for playing')
