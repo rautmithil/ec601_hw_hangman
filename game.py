@@ -4,12 +4,9 @@ Created on Tue Sep 20 10:57:21 2016
 
 @author: zhuoli, mithil
 """
-from distutils.core import setup
 import pandas
 import random
-import py2exe
 
-setup(console=['game.py'])
 #Read the list of cities
 data = pandas.read_csv('macities.csv')
 
