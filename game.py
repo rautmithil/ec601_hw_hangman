@@ -192,6 +192,8 @@ while(replay):
             else:
                 print ('This letter is not contained in the city name')
                 drawh(6)
+                print ('The correct answer is:')
+                print (city)
                 print ('Game Over')
                 break
         else:
