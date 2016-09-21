@@ -157,6 +157,7 @@ while(replay):
 #pick up a city randomly
     sel_city = random.randint(1,473)
 #print (sel_city)
+    #sel_city = 350
 
 #Select a random city from data
     city = data.city[sel_city]
