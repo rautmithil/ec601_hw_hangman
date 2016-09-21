@@ -4,12 +4,9 @@ Created on Tue Sep 20 10:57:21 2016
 
 @author: zhuoli, mithil
 """
-from distutils.core import setup
 import pandas
 import random
-import py2exe
 
-setup(console=['game.py'])
 #Read the list of cities
 data = pandas.read_csv('macities.csv')
 
@@ -195,6 +192,8 @@ while(replay):
             else:
                 print ('This letter is not contained in the city name')
                 drawh(6)
+                print ('The correct answer is:')
+                print (city)
                 print ('Game Over')
                 break
         else:
